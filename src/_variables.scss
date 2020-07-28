@@ -1,0 +1,78 @@
+$white: #fff;
+$pink: #fff3f3;
+$lighgray: #f3f5f7;
+$gray: #c1c1c1;
+$blue: #06203a;
+$black: #000000;
+$red: #ff1938;
+$grayopacity: rgba(0, 0, 0, 0.2);
+
+@font-face {
+  font-family: 'TT Norms Bold';
+  src: url('~@/assets/fonts/TT Norms Bold.woff2') format('woff2'),
+    url('~@/assets/fonts/TT Norms Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Norms Regular';
+  src: url('~@/assets/fonts/TT Norms Regular.woff2') format('woff2'),
+    url('~@/assets/fonts/TT Norms Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Norms Light';
+  src: url('~@/assets/fonts/TT Norms Light.woff2') format('woff2'),
+    url('~@/assets/fonts/TT Norms Light.woff') format('woff');
+}
+@mixin font-bold {
+  font-family: 'TT Norms Bold', 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin font-regular {
+  font-family: 'TT Norms Regular', 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin font-light {
+  font-family: 'TT Norms Light', 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+// regular text, Total
+@mixin fs-text {
+  font-size: 25px;
+  line-height: 32px;
+}
+// sku, small chf
+@mixin fs-light {
+  font-size: 14px;
+  line-height: 18px;
+}
+// Cart total
+@mixin fs-big {
+  font-size: 35px;
+  line-height: 45px;
+}
+// details page
+@mixin fs-h1 {
+  font-size: 100px;
+  line-height: 117px;
+}
+@mixin fs-description {
+  font-size: 20px;
+  line-height: 35px;
+}
+@mixin fs-retirer {
+  font-size: 20px;
+  line-height: 26px;
+}
+@mixin fs-number {
+  font-size: 700px;
+  line-height: 462px;
+}
+// payment
+@mixin fs-card {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.75px;
+}

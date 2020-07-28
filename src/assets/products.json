@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "amount": 1,
+    "name": "Nike Carbon 25",
+    "sku": 389479,
+    "price": 120.9,
+    "number": 77,
+    "description": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Donec nunc ligula, vulputate sit amet lacus sit amet.",
+    "design": "Alex Volt"
+  },
+  {
+    "id": 2,
+    "amount": 1,
+    "name": "Nike Air Zoom",
+    "sku": 654846,
+    "price": 110.9,
+    "number": 87,
+    "description": "Ut consetetur, tellus non dignissim lobortis, eros enim molesrie es, quis pretium nulla libero gravida nisl.",
+    "design": "Bill Gates"
+  },
+  {
+    "id": 3,
+    "amount": 1,
+    "name": "Nike Revolt 5",
+    "sku": 374879,
+    "price": 79.9,
+    "number": 74,
+    "description": "Curabitur sit amet sem ut quam elementum bibendum. Morbi nec turpis tellus. Nulla malesuada condimentum odio.",
+    "design": "Evan You"
+  }
+]
