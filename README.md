@@ -1,7 +1,7 @@
 # dynamic-cart-for-woocommerce
 
 - Nouveau WP install, thème twentytwenty
-- créé un page "Shopping cart", ajouté le shortcode [dynamic-cart-for-woocommerce]
+- créé un page "Shopping cart", ajouté le shortcode [vuecart]
 
 ## Project setup
 
